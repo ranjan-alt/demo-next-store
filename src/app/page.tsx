@@ -33,18 +33,18 @@ export default function Home() {
                   Shop Women
                 </Link>
                 <Link
-                  href="/search/mens-collection"
+                  href="/search/New-Arrivals"
                   className="inline-flex h-9 items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                   prefetch={false}
                 >
-                  Shop Men
+                  New Arrivals
                 </Link>
                 <Link
-                  href="/search/sales"
+                  href="/search/Trending"
                   className="inline-flex h-9 items-center justify-center rounded-md border border-red-300 border-input bg-background px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-red-300 hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                   prefetch={false}
                 >
-                  Shop Sales
+                  Trending
                 </Link>
               </div>
             </div>
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
             <div className="grid gap-1">
               <Link
-                href="/search/mens-collection"
+                href="/search/New-Arrivals"
                 className="group"
                 prefetch={false}
               >
@@ -107,12 +107,12 @@ export default function Home() {
                   className="aspect-[4/5] overflow-hidden rounded-lg object-cover group-hover:scale-105 transition-transform"
                 />
                 <h3 className="mt-4 text-lg font-bold group-hover:underline">
-                  Men\&apos;s Collection
+                  New\&apos; Arrivals
                 </h3>
               </Link>
             </div>
             <div className="grid gap-1">
-              <Link href="/search/kids" className="group" prefetch={false}>
+              <Link href="/search/Trending" className="group" prefetch={false}>
                 <img
                   src="/kids-collection.png"
                   width="400"
@@ -121,12 +121,12 @@ export default function Home() {
                   className="aspect-[4/5] overflow-hidden rounded-lg object-cover group-hover:scale-105 transition-transform"
                 />
                 <h3 className="mt-4 text-lg font-bold group-hover:underline">
-                  Kids\&apos;s Collection
+                  Trending\&apos; Collection
                 </h3>
               </Link>
             </div>
             <div className="grid gap-1">
-              <Link href="/search/sales" className="group" prefetch={false}>
+              <Link href="/search/sale" className="group" prefetch={false}>
                 <img
                   src="/sales-collection.png"
                   width="400"

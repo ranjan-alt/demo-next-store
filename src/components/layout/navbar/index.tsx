@@ -14,7 +14,7 @@ export async function Navbar() {
         <MobileMenu menu={menu} />
       </div>
       <div className="flex w-full items-center">
-        <div className="flex w-full md:w-1/3">
+        <div className="flex w-full md:w-1/2">
           <Link
             href={"/"}
             prefetch={true}
